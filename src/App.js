@@ -31,7 +31,6 @@ const App =()=> {
       <div className="container">
       <form>
           <input type="text" value={result}></input><br></br><br></br>
-          <input type="text" value={result}></input>
       </form> 
       <Buttons handle={handleClick}  cal={calculate} cle={clear}></Buttons> 
        </div>
